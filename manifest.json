@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SPassword",
+  "description": "Is a simple and elegant Password Generator Web App that allows users to generate strong, secure passwords instantly.",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+"action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon.png",
+      "48": "icons/icon.png",
+      "128": "icons/icon.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  }
+}
